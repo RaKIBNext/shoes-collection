@@ -1,0 +1,145 @@
+body{
+    scroll-behavior: smooth;
+    background-color: #FFF9F4;
+}
+
+.logo img{
+width: 50%;
+}
+.text-style{
+    text-transform: uppercase;
+    color:#FA804C ;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+.text-style-1{
+    text-transform: uppercase;
+    color: rgb(56,59,90) ;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+.btn-style{
+    background-color: #3543BC;
+    border: 0;
+    text-transform: uppercase;
+    border-radius: 10px;
+
+}
+p{
+    font-family: 'Courgette', cursive;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+}
+.card-image{
+    position: relative;
+}
+.card-image-5 img{
+    position: absolute;
+    right: 5px;
+    top: 1px;
+}
+
+.card-image-1 img{
+    position: absolute;
+    right: 5px;
+    top: 40px;
+}
+.card-image img{
+    position: absolute;
+    right: 5px;
+    top: 35px;
+}
+.card-image-5{
+    border: 0;
+}
+.card-image,.shoes-border{
+    border: 0;
+}
+.shoes-border{
+    border-radius: 10px;
+}
+.card-image-1{
+    border: 0;
+}
+
+.shoe-1{
+    height: 300px;
+    margin:10px;
+    align-items: center;
+    border: 0;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+.card-border{
+    border: 0;
+}
+.photo img{
+    width: 100%;
+    height: 300px;
+}
+.photo-1 img{
+    width:120px;
+    margin-right: 20px;
+    
+}
+.height-des{
+    height: 60px;
+}
+.one-third-width{
+   
+    border-radius: 20px;
+    height: 100px;
+    margin-bottom: 5px;
+   
+
+}
+.height-des p{
+    font-size: 1.1em;
+}
+button:hover{
+    background-color: red;
+    
+}
+.anchor-style ul li{
+    text-transform: uppercase;
+}
+.anchor-style ul li a:hover{
+    background-color:#9FE2BF ;
+    border-radius: 10px;
+    padding: 0 5px;
+    
+}
+.price h1{
+    position: relative;
+    left: 2px;
+}
+.map iframe{
+    width: 100%;
+    height: 300px;
+}
+.headline{
+    text-align: center;
+}
+.text-color{
+color:#9FE2BF;
+font-style: italic;
+}
+.card-image-5:hover .shoe-1 img{
+    transform:rotate(30deg);
+    transition: transform 3s;
+}
+.card-image-1:hover .shoe-1 img{
+    transform:rotate(30deg);
+    transition: transform 3s ease 1s;
+}
+.card-image:hover .shoe-1 img{
+    transform:rotate(30deg);
+    transition: transform 3s ease 3s ;
+}
+.Products-font{
+    font-size: 25px;
+    font-weight: bolder;
+}
